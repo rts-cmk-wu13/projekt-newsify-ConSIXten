@@ -11,14 +11,21 @@ export default function onboardingSlide(imagePath, title, text, isActive = false
                 <h2>${title}</h2>
                 <p>${text}</p>
                 <div>
-                    <button class="btn btn__tweak">Log In </button>
+                    <button class="btn btn__tweak">Log In</button>
                     <button class="btn">Sign up</button>
                 </div>
             </div>
         </div>
     `;
+
+    // Add click handlers using JavaScript instead of inline onclick
+    const buttons = slide.querySelectorAll('button');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            window.location.href = '/src/authScripts/login.html';
+        });
+    });
     
     return slide;
 }
-
 

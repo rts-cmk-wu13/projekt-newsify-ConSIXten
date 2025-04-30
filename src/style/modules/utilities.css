@@ -10,6 +10,18 @@
     flex-direction: column;
 }
 
+.margin-top-large{
+    margin-top: 5rem;
+}
+
 .margin-top-medium{
     margin-top: 2.5rem;
+}
+
+.margin-top-small{
+    margin-top: 1rem;
+}
+
+.border{
+    border-top: 1px solid #000000;
 }
