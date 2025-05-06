@@ -17,13 +17,13 @@ export default function main() {
         // Only trigger on the growAndWiggle animation
         if (event.animationName !== 'growAndWiggle' || hasTransitioned) return
         hasTransitioned = true
-        
+
         setTimeout(() => {
             document.body.style.transition = 'opacity 0.5s ease-out'
             document.body.style.opacity = '0'
-            
+
             setTimeout(() => {
-                window.location.href = 'src/onboardingScripts/onboarding.html'
+                window.location.href = '/onboarding.html'
             }, 500)
         }, 1000)
     })

@@ -1,7 +1,7 @@
 export default function onboardingSlide(imagePath, title, text, isActive = false) {
     const slide = document.createElement('div');
     slide.className = `onboarding-slide ${isActive ? 'active' : ''}`;
-    
+
     slide.innerHTML = `
         <div class="onboarding__backdrop">
             <figure class="onboarding__backdrop__figure">
@@ -21,10 +21,10 @@ export default function onboardingSlide(imagePath, title, text, isActive = false
     const buttons = slide.querySelectorAll('.btn-login');
     buttons.forEach(button => {
         button.addEventListener('click', () => {
-            window.location.href = '/src/authScripts/login.html';
+            window.location.href = '/login.html';
         });
     });
-    
+
     return slide;
 }
 
