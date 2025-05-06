@@ -23,7 +23,7 @@ export default function main() {
             document.body.style.opacity = '0'
 
             setTimeout(() => {
-                window.location.href = '/onboarding.html'
+                window.location.href = '/src/onboarding.html'
             }, 500)
         }, 1000)
     })
