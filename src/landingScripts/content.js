@@ -1,10 +1,12 @@
+import newsify_logo from '/images/newsify_logo1.png'
+
 export default function main() {
     let mainElm = document.createElement("main")
 
     mainElm.innerHTML = `
         <div class="center flex-column landing">
             <figure class="logo">
-                <img class="logo__img" src="/images/newsify_logo1.png" alt="">
+                <img class="logo__img" src="${newsify_logo}" alt="">
             </figure>
             <h1 class="center">Newsify</h1>
         </div>
