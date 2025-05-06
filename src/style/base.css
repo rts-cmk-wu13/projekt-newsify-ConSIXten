@@ -5,18 +5,18 @@
 }
 
 :root {
-    color-scheme: light dark;
+    /* color-scheme: light dark;
     --dark-color: hsl(0 0% 10%);
-    --light-color: hsl(0 0% 97%);
+    --light-color: hsl(0 0% 97%); */
 }
 
-[data-dark="true"] {
+/* [data-dark="true"] {
     color-scheme: dark;
 }
 
 [data-dark="false"] {
     color-scheme: light;
-}
+} */
 
 
 html {
