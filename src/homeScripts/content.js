@@ -23,7 +23,7 @@ function createCategoryDropdown(category, articles) {
         <div class="dropdown__header">
             <div class="dropdown__left">
                 <figure class="dropdown__logo">
-                    <img src="/public/images/newsify_logo1.png" class="dropdown__logo-img">
+                    <img src="/images/newsify_logo1.png" class="dropdown__logo-img">
                 </figure>
                 <h2 class="dropdown__title">${category.toUpperCase()}</h2>
             </div>

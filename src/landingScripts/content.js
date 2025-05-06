@@ -4,7 +4,7 @@ export default function main() {
     mainElm.innerHTML = `
         <div class="center flex-column landing">
             <figure class="logo">
-                <img class="logo__img" src="./public/images/newsify_logo1.png" alt="">
+                <img class="logo__img" src="/images/newsify_logo1.png" alt="">
             </figure>
             <h1 class="center">Newsify</h1>
         </div>
