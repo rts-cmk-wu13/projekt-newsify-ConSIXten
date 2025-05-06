@@ -1,10 +1,12 @@
+import newsify_logo from '/images/newsify_logo1.png'
+
 export default function main() {
     let mainElm = document.createElement("main")
 
     mainElm.innerHTML = `
         <div class="fullw center flex-column margin-top-large">
             <figure class="authlogo">
-                <img class="authlogo__img" src="/images/newsify_logo1.png" alt="">
+                <img class="authlogo__img" src="${newsify_logo}" alt="">
             </figure>
             <h1 class="">Newsify</h1>
             <p class="margin-top-large">Welcome! Let's dive into your account!</p>
