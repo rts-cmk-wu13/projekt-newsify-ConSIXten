@@ -47,6 +47,10 @@ footer > *{
     grid-template-columns: subgrid;
 }
 
+.fullw{
+    grid-column: fullw;
+}
+
 .columns{
     grid-column: content;
     display: grid;

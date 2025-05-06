@@ -1,29 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+:root {
+    color-scheme: light dark;
+    --dark-color: hsl(0 0% 10%);
+    --light-color: hsl(0 0% 97%);
+}
+
+[data-dark="true"] {
+    color-scheme: dark;
+}
+
+[data-dark="false"] {
+    color-scheme: light;
+}
+
+
+html {
+    color: #404040;
+}
+
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-header{
+/* header{
     height: 10rem;
-    /* background-color: aquamarine; */
-}
-
-/* main{
-    background-color: hotpink;
+    background-color: aquamarine;
 } */
 
-footer{
-    height: 5rem;
-    /* background-color: brown; */
+
+
+li {
+    list-style: none;
 }
 
-nav{
+a {
+    text-decoration: none;
+}
+
+footer {
+    height: 5rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+}
+
+nav {
     background-color: white;
 }
