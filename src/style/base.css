@@ -10,13 +10,13 @@
     --light-color: hsl(0 0% 97%); */
 }
 
-[data-dark="true"] {
+/* [data-dark="true"] {
     color-scheme: dark;
 }
 
 [data-dark="false"] {
     color-scheme: light;
-}
+} */
 
 
 html {
