@@ -19,3 +19,14 @@
     width: 100%;
     object-fit: contain;
 }
+
+.logo__home{
+    height: 2rem;
+    width: 1.75rem;
+}
+
+.logo__text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}

@@ -17,9 +17,16 @@ export default function main() {
             <div class="border border-space margin-top-medium">
                 <p class="center p-border">or</p>
             </div>
-            <button class="margin-top-medium btn">Sign in with password</button>
+            <button class="margin-top-medium btn btn-home">Sign in with password</button>
             <p class="margin-top-large center">Don't have an account?  <a href="">Sign up</a></p>
         </div>
     `
+        const btns = mainElm.querySelectorAll('.btn-home');
+        btns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                window.location.href = '/src/homeScripts/home.html';
+            });
+        });
+
         return mainElm;
 }
