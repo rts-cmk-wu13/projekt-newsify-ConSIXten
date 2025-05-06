@@ -1,5 +1,5 @@
-import logo from "/images/newsify_logo1.png";
 import newsCard from "./newsCard.js";
+import newsify_logo from '/images/newsify_logo1.png'
 
 export default function main() {
     let mainElm = document.createElement("main");
@@ -24,7 +24,7 @@ function createCategoryDropdown(category, articles) {
         <div class="dropdown__header">
             <div class="dropdown__left">
                 <figure class="dropdown__logo">
-                    <img src="${logo}" class="dropdown__logo-img">
+                    <img src="${newsify_logo}" class="dropdown__logo-img">
                 </figure>
                 <h2 class="dropdown__title">${category.toUpperCase()}</h2>
             </div>
