@@ -21,12 +21,12 @@ export default function main() {
             <p class="margin-top-large center">Don't have an account?  <a href="">Sign up</a></p>
         </div>
     `
-        const btns = mainElm.querySelectorAll('.btn-home');
-        btns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                window.location.href = '/src/homeScripts/home.html';
-            });
+    const btns = mainElm.querySelectorAll('.btn-home');
+    btns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            window.location.href = '/home.html';
         });
+    });
 
-        return mainElm;
+    return mainElm;
 }
