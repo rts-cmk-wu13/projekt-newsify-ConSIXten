@@ -1,0 +1,32 @@
+.logo{
+    height: 15.75rem;
+    width: 10.8rem;
+}
+
+.logo__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.authlogo{
+    height: 8rem;
+    width: 5rem;
+}
+
+.authlogo__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.logo__home{
+    height: 2rem;
+    width: 1.75rem;
+}
+
+.logo__text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}

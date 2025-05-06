@@ -1,0 +1,45 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.margin-top-large {
+    margin-top: 5rem;
+}
+
+.margin-top-medium {
+    margin-top: 2.5rem;
+}
+
+.margin-top-small {
+    margin-top: 1rem;
+}
+
+.margin-bottom-small {
+    margin-bottom: 1rem;
+}
+
+.border {
+    border-top: 1px solid #000000;
+}
